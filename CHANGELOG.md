@@ -1,3 +1,12 @@
+<a name"0.4.3-woautoclose"></a>
+### 0.4.3-woautoclose (2016-01-25)
+
+
+#### Features
+
+Remove auto close mecanism.
+
+
 <a name"0.4.3"></a>
 ### 0.4.3 (2015-11-19)
 

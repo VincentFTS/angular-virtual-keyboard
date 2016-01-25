@@ -229,7 +229,7 @@ var VKI = function(customConfig, layout, deadKeys, keyInputCallback) {
     if (self.VKI_isMoz)
       elem.addEventListener('blur', function() { this.setAttribute('_scrollTop', this.scrollTop); }, false);
 
-    VKI_addListener(document.documentElement, 'click', function(e) { self.VKI_close(false); }, false);
+    //VKI_addListener(document.documentElement, 'click', function(e) { self.VKI_close(false); }, false);
 
     // Attach close event handler.
     angular.element(elem).bind('VKI_close', function(){self.VKI_close(false);});
@@ -813,7 +813,7 @@ var VKI = function(customConfig, layout, deadKeys, keyInputCallback) {
       this.VKI_target.blur();
       this.VKI_target.focus();
 
-      this.VKI_closeOthers();
+      //this.VKI_closeOthers();
     } else this.VKI_close(false);
   };
 
